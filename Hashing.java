@@ -15,6 +15,10 @@ creating an array for prestoring the data.
 Number Hashing maximmum hash size global vs inside main
 10 power 7 and 10 power 6
 
+The main concept in number hashing is to increase the counter in the index position.
+and fetch at the end.
+
+
  */
 
 import java.util.Scanner;
@@ -35,6 +39,8 @@ public class Hashing {
         for(int i = 0; i< sizeOfArray; i++){    
                 prestoredArray[integersArray[i]] += 1 ;
         }
+
+        //fetching the values from the array.
 
         int sizeOfQuery = scan.nextInt();
         while (sizeOfQuery < 13) {
