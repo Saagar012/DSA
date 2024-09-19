@@ -8,7 +8,7 @@ public class BubbleSort {
     public static void main(String[] args) {
     
 
-        int arr[] = {12,52,9,10,80};
+        int arr[] = {12,52,9,10,80,90};
 
         for(int i = arr.length-1; i >=1; i-- ){
             for(int j =0; j< i - 2; j--){
